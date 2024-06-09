@@ -42,9 +42,9 @@ export default function Home() {
         <div className="max-w-[1300px] lg:px-12 sm:px-8 x-sm:px-4 min-h-[600px] max-h-600 flex justify-between gap-4 overflow-hidden">
           {/* hero left */}
           <div className="flex-[2] flex flex-col justify-center">
-            <h1 className="lg:text-[8rem] sm:text-[5rem] x-sm:text-[3.5rem] font-bold leading-none text-white">SkillLink</h1>
+            <h1 className="lg:text-[8rem] sm:text-[5rem] x-sm:text-[3.5rem] font-bold leading-none text-white">SkillZEE</h1>
             <h3 className="lg:text-[2rem] sm:text-[1.6rem] x-sm:text-[1.1rem] font-[600] leading-tight my-4 text-white">Linking Talent. Unlocking Potential.</h3>
-            <p className="text-gray-200 mb-20 lg:text-[1rem] sm:text-[.9rem] x-sm:text-[.8rem]">The ultimate job board connecting top talent with amazing opportunities. Our platform leverages cutting-edge technology and vast industry connections to match job seekers with their dream career and help companies find the perfect fit. Unlock your full potential today with SkillLink.</p>
+            <p className="text-gray-200 mb-20 lg:text-[1rem] sm:text-[.9rem] x-sm:text-[.8rem]">The ultimate job board connecting top talent with amazing opportunities. Our platform leverages cutting-edge technology and vast industry connections to match job seekers with their dream career and help companies find the perfect fit. Unlock your full potential today with SkillZEE.</p>
             {/* search form */}
             <form className="flex p-2 items-center border-blue-400 border-2 rounded-xl overflow-hidden bg-white" onSubmit={searchHandler}>
               <input type="search" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} placeholder="Enter the job title and see the magic..." className="bg-transparent w-full outline-none lg:text-lg pl-2 sm:text-base x-sm:text-sm " />
@@ -61,7 +61,7 @@ export default function Home() {
 
       {/* features section */}
       <section className="min-h-[300px] py-12 lg:px-12 sm:px-8 x-sm:px-4">
-        <h2 className="text-blue-500 sm:text-[3rem] x-sm:text-[2rem] font-[600] text-center mb-10">Why SkillLink?</h2>
+        <h2 className="text-blue-500 sm:text-[3rem] x-sm:text-[2rem] font-[600] text-center mb-10">Why SkillZEE?</h2>
 
         {/* features */}
         <div className="flex justify-center flex-wrap gap-6">

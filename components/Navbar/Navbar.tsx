@@ -70,7 +70,7 @@ const Navbar = () => {
                     <div className="h-[5px] w-full bg-white rounded-[20px]"></div>
                 </div>
                 <Link href={'/'} className="sm:text-4xl x-sm:text-[30px] font-bold">
-                    SkillLink
+                    TEAM-39
                 </Link>
                 <ul className="flex items-center gap-8">
                     <div className={`flex items-center gap-8 md:static md:flex-row md:bg-transparent md:h-fit x-sm:absolute ${showMenu ? "x-sm:left-0" : "x-sm:left-[-400px]"} x-sm:top-0 x-sm:bg-blue-500 x-sm:flex-col x-sm:h-[100vh] x-sm:min-w-[250px] x-sm:justify-center duration-300 transition-all`}

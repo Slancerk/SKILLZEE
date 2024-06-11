@@ -66,7 +66,7 @@ const JobPage = ({ params }: Param) => {
                         <div className="text-gray-600 text-sm py-4 flex flex-col gap-2">
                             <p className="flex gap-1 items-center">
                                 <FcMoneyTransfer />
-                                <span>Salary: {job?.salary_range.from.toLocaleString()} PKR to {job?.salary_range.to.toLocaleString()} PKR</span>
+                                <span>Salary: {job?.salary_range.from.toLocaleString()}  INR to {job?.salary_range.to.toLocaleString()} INR</span>
                             </p>
                             <p className="flex gap-1 items-center">
                                 <MdLocationPin className="text-blue-500" />

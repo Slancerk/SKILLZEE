@@ -1,6 +1,6 @@
-## SkillLink - Job Boarding App
+## SkillZEE - PortFolio And Skill Management system project.
 
-SkillLink is a full-stack web application that serves as a job board for job seekers and employers. Users can register and log in to their accounts, edit their profiles, upload resumes, and add their skills and interests. They can search for jobs by title and city, as well as filter jobs by salary range, upload date, experience, and job type. Users can also apply and save jobs, join the mailing list, and access resources.
+SkillZEE is a full-stack web application that serves as a job board for job seekers and employers. Users can register and log in to their accounts, edit their profiles, upload resumes, and add their skills and interests. They can search for jobs by title and city, as well as filter jobs by salary range, upload date, experience, and job type. Users can also apply and save jobs, join the mailing list, and access resources.
 
 ## Pages
 
@@ -12,7 +12,7 @@ SkillLink is a full-stack web application that serves as a job board for job see
 
 ## Technologies
 
-SkillLink was built using the following libraries and frameworks:
+SkillZEE was built using the following libraries and frameworks:
 
     Next.js: A React-based web framework that allows for server-side rendering and efficient code splitting.
     React: A JavaScript library used for building user interfaces.
@@ -24,18 +24,19 @@ SkillLink was built using the following libraries and frameworks:
     React-hook-form: A library used for building forms in React.
     React-icons: A library of customizable icons for React.
     TailwindCSS: A utility-first CSS framework for building custom designs quickly.
+    AWS: for deployment purpose ( ec2 server)
 
 ## Getting Started
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/[YOUR_USERNAME]/skilllink.git
+git clone https://github.com/Slancerk/SKILLZEE.git
 ```
 Install the dependencies:
 
 ```bash
-cd skilllink
+cd skillZEE
 npm install
 ```
 
@@ -54,7 +55,3 @@ npm run dev
 ## Contributing
 
 We welcome contributions and feedback! If you find any bugs, issues, or have suggestions for improvement, please create a pull request or issue. For major changes, please open an issue first to discuss the changes.
-
-## License
-
-SkillLink is licensed under the MIT License. See LICENSE for more information.

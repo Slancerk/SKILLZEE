@@ -33,7 +33,7 @@ const About = () => {
 
                 {/* concolusion */}
                 <h2 className="text-[2.5rem] text-blue-500 font-[600]">Conclusion:</h2>
-                <p className="text-gray-500 text-[1.1rem] font-[500] mb-10">Whether you're a job seeker or a recruiter, SkillZEE is the ultimate platform to help you achieve your career goals. Our job board, talent search, resource center, and talent community provide a comprehensive suite of tools and resources to help you succeed in your chosen field. So why wait? Sign up for SkillLink today and take the first step towards your dream career!</p>
+                <p className="text-gray-500 text-[1.1rem] font-[500] mb-10">Whether you're a job seeker or a recruiter, SkillZEE is the ultimate platform to help you achieve your career goals. Our job board, talent search, resource center, and talent community provide a comprehensive suite of tools and resources to help you succeed in your chosen field. So why wait? Sign up for SkillZEE today and take the first step towards your dream career!</p>
             </section>
         </main>
     )
